@@ -18,7 +18,7 @@ class SplashScreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image.asset('assets/logo.png', height: 100),
+            Image.asset('assets/blood.png', height: 100),
             SizedBox(height: 20),
             Text("Blood Management App", style: TextStyle(fontSize: 20)),
           ],
