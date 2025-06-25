@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 class DonorCard extends StatelessWidget {
   final DonorModel donor;
 
-  const DonorCard({required this.donor});
+  const DonorCard({super.key, required this.donor});
 
   @override
   Widget build(BuildContext context) {
@@ -13,9 +13,9 @@ class DonorCard extends StatelessWidget {
       elevation: 4,
       child: ListTile(
         leading: CircleAvatar(
-          child: Text(donor.bloodGroup),
           backgroundColor: Colors.red,
           foregroundColor: Colors.white,
+          child: Text(donor.bloodGroup),
         ),
         title: Text(donor.name),
         subtitle: Text('Location: ${donor.location}'),

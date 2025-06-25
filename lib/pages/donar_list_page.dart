@@ -8,6 +8,8 @@ class DonorListPage extends StatelessWidget {
     DonorModel(name: 'Samiha', bloodGroup: 'O-', location: 'Chittagong'),
   ];
 
+  const DonorListPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

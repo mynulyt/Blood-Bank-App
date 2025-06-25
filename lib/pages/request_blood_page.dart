@@ -5,6 +5,8 @@ class RequestBloodPage extends StatelessWidget {
   final groupController = TextEditingController();
   final locationController = TextEditingController();
 
+  RequestBloodPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
