@@ -1,5 +1,6 @@
 import 'package:blood_bank/pages/donar_list_page.dart';
 import 'package:blood_bank/pages/my_request_page.dart';
+import 'package:blood_bank/pages/notification_page.dart';
 import 'package:flutter/material.dart';
 import 'request_blood_page.dart';
 
@@ -76,7 +77,7 @@ class HomePage extends StatelessWidget {
                     icon: Icons.notifications,
                     title: "Notifications",
                     color: Colors.orange,
-                    page: Container(), // Replace with actual page
+                    page: NotificationPage(), // Replace with actual page
                   ),
                 ],
               ),
