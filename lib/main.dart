@@ -1,3 +1,4 @@
+import 'package:blood_bank/pages/slash_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
