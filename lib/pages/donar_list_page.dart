@@ -1,3 +1,5 @@
+import 'package:blood_bank/models/donar_model.dart';
+import 'package:blood_bank/widgets/doner_card.dart';
 import 'package:flutter/material.dart';
 
 class DonorListPage extends StatelessWidget {
