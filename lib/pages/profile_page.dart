@@ -34,7 +34,7 @@ class ProfilePage extends StatelessWidget {
                 ),
                 const SizedBox(height: 16),
                 const Text(
-                  'John Doe',
+                  'Mynul Alam',
                   style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
                 ),
                 const SizedBox(height: 4),
@@ -67,7 +67,7 @@ class ProfilePage extends StatelessWidget {
                       _buildProfileItem(
                         Icons.email,
                         'Email',
-                        'john.doe@example.com',
+                        'mynul@example.com',
                       ),
                       _buildProfileItem(Icons.phone, 'Phone', '+8801712345678'),
                       _buildProfileItem(
