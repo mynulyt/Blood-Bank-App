@@ -73,7 +73,6 @@ class _SplashScreenState extends State<SplashScreen>
                 child: Image.asset(
                   'assets/blood_drop.png', // Make sure this asset exists
                   height: 150,
-                  color: Colors.red[700],
                 ),
               ),
             ),
